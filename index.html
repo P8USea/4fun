@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Random WebSite</title>
+    <Style>
+        h3, p, ul
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #red_ones
+        {
+            color: rgb(250, 0, 21);
+        }
+        a.custom-link
+        {
+            color: blue;
+        }
+    </Style>
+</head>
+
+
+<body>
+    <div>
+        <h3 id="red_ones"> STEP 1: SELECT A TOPIC</h3>
+        <p>Choose from our <a href="", class="custom-link"> 30+ purpose-built video games </a> 
+            covering crucial concepts from biology, ethics and more. <br>
+            Select a game and associated digital resources that will help you deliver a lesson, lecture
+            or tutorial matched to your curriculum.
+        </p>
+    </div>
+    <div>
+        <h3 id="red_ones"> STEP 2: PLAY A GAME</h3>
+        <p>
+            Each game is a <i>science experiment</i>  allowing students to intuitively create hypotheses and 
+            predict outcomes. As your students explore different exciting worlds, they learn through 
+            trial & error and play. Students intuitively make hypotheses and predictions that 
+            help them understand what they are learning. 
+        </p>
+    </div>
+    <div>
+        <h3 id="red_ones"> STEP 3: EXPLORE DATA TOGETHER</h3>
+        <p>
+            After each game, science data is instantly presented to students as different graphs. 
+            These graphs include: </p>
+            <ul>
+                <li>Scatter plots</li>
+                <br>
+                <li>Bar graphs</li>  
+                <br>   
+            </ul>  
+            <p>    
+            As each of our games collects anonymised data that are automatically aggregated, 
+            students are excited to discuss the data they collect.
+        </p>
+    </div>
+    <div>
+            <button onclick="LetsRoll()" style="font-size: 25px; background-color: aqua; color: brown; border-radius: 25px; cursor: pointer;"> Click this</button>
+            <script>
+                function LetsRoll(){
+                    var img = document.getElementById("img");
+                    img.style.display = img.style.display === "none" ? "block" : "none";
+
+                }
+            </script>
+            <br>
+            <br>
+            <img id="img" src="images.jpg" alt="Some images" style="display: none;">
+    </div>
+    
+</body>
+
+</html>
