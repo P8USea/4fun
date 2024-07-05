@@ -1,5 +1,7 @@
 Cho những ai chưa biết sử dụng như thế nào thì làm theo các bước:
-+ Cài đặt VS Code bản mới nhất phù hợp với hệ điều hành
-+ Mở ứng dụng, tại Extension thêm vào gói Live Server
-+ Chuột phải vào file index.html --> Open with live server
++ Nhấn zo Code --> Download zip
++ Download về, giải nén file zip
++ Mở file, chọn index.html
 + Enjoy
+
+P/s: Để xem mã nguồn, tại trang web đã mở ấn Cmd+ Option+ U với Chrome hoặc Cmd+ U với Firefox
